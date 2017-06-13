@@ -11,7 +11,7 @@ Training data is extracted from resources on the Internet, in a raw form with 8 
 
 We preprocess raw data to remove noise and filter phrases. We also replace number in the dataset with a special symbol, \<NUM\> and out-of-vocabulary (OOV) words with \<UNK\>. We append start of sentence token \<s\> and end of sentece token \</s\> to every sentence. We convert our dataset to lower-case to increase vocabulary coverage and use top 15K words as the vocabulary.
 
-Evaluating data is manually curated to compare our performance with existing word prediction methods. The dataset is consist of 102 sentences (926 words, 3,746 characters) which are collection of formal and informal utterances from various sources which covers general keyboard scenarios. 
+Evaluation data is manually curated to compare our performance with existing word prediction methods. The dataset is consist of 102 sentences (926 words, 3,746 characters) which are collection of formal and informal utterances from various sources which covers general keyboard scenarios. 
 
 
 ## Download
@@ -28,7 +28,20 @@ https://github.com/Meinwerk/WordPrediction/master.zip
 
 ## Extraction
 ```
-cat en-sents-shuf00.data.tar.gz* | tar xvzf -
+cd unked-clean-dict-15k
+cat en-sents-shuf.00.data.tar.gz* | tar xvzf -
+```
+
+## Traning Data
+```
+./unked-clean-dict-15k/en-sents-shuf.00.test.txt
+./unked-clean-dict-15k/en-sents-shuf.00.valid.txt
+./unked-clean-dict-15k/en-sents-shuf.00.train.txt
+```
+
+## Evaluation Data
+```
+./eval_kss_en.txt
 ```
 
 ## Contact
