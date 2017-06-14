@@ -1,11 +1,11 @@
 ## Word Prediction
-An Embedded Deep Learning based Word Prediction 
+
 
 ## Description
 We have proposed an embedded deep learning based word prediction method that optimizes for run-time, and memory to render a smooth performance. Our model size is 7.40MB and has average prediction time of 6.47 ms.
 
 ## Data
-The data set which is used for training and evaluating the model proposed in "An Embedded Deep Learning based Word Prediction"
+The data set which is used for training and evaluating the model proposed in ""
 
 Training data is extracted from resources on the Internet, in a raw form with 8 billion words. We uniformly sample 10% (196 million) from the data. It consists of 60% for training, 10% for validation and 30% for test.
 
