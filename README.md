@@ -1,6 +1,6 @@
-## Word Prediction
-
 ## An Embedded Deep Learning based Word Prediction
+
+## Description
 
 Recent developments in deep learning with application to language modeling have led to success in tasks of text processing, summarizing and machine translation. 
 However, deploying huge language models for mobile device such as on-device keyboards poses computation as a bottle-neck due to their puny computation capacities. 
