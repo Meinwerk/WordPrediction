@@ -1,5 +1,7 @@
 ## Word Prediction
 
+## An Embedded Deep Learning based Word Prediction
+
 Recent developments in deep learning with application to language modeling have led to success in tasks of text processing, summarizing and machine translation. 
 However, deploying huge language models for mobile device such as on-device keyboards poses computation as a bottle-neck due to their puny computation capacities. 
 In this work we propose an embedded deep learning based word prediction method that optimizes run-time memory and also provides a real time prediction environment. Our model size is 7.40MB and has average prediction time of 6.47 ms. We improve over the existing methods for word prediction in terms of key stroke savings and word prediction rate.
