@@ -1,4 +1,4 @@
-## An Embedded Deep Learning based Word Prediction
+## On-Device Neural Language Model based Word Prediction
 
 ## Description
 
